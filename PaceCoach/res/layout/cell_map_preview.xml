@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_preview"
+    style="@style/cell_map" >
+
+    <ImageView
+        style="@style/map_preview"
+        android:scaleType="centerCrop" />
+
+    <ImageView style="@style/map_corner_topleft" />
+
+    <ImageView style="@style/map_corner_topright" />
+
+    <ImageView style="@style/map_corner_bottomleft" />
+
+    <ImageView style="@style/map_corner_bottomright" />
+
+</FrameLayout>

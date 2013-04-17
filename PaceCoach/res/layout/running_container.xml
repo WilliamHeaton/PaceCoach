@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/runningContainer"
+    style="@style/container" >
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding"
+        android:paddingTop="@dimen/page_padding" >
+
+        <Button
+            android:id="@+id/split"
+            style="@style/splitbutton"
+            android:text="@string/split"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/pages"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/page_padding"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding" >
+
+        <Button
+            android:id="@+id/searching"
+            style="@style/searchingbutton"
+            android:text="@string/searching"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/warmup"
+            style="@style/warmupbutton"
+            android:text="@string/startwarmup"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/workout"
+            style="@style/workoutbutton"
+            android:text="@string/startworkout"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/cooldown"
+            style="@style/cooldownbutton"
+            android:text="@string/startcooldown"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/pausewarmup"
+            style="@style/pausebutton"
+            android:text="@string/pause"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/pauseworkout"
+            style="@style/pausebutton"
+            android:text="@string/pause"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/pausecooldown"
+            style="@style/pausebutton"
+            android:text="@string/pause"
+            android:visibility="gone" />
+        
+        <Button
+            android:id="@+id/resumewarmup"
+            style="@style/resumebutton"
+            android:text="@string/resume"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/resumeworkout"
+            style="@style/resumebutton"
+            android:text="@string/resume"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/resumecooldown"
+            style="@style/resumebutton"
+            android:text="@string/resume"
+            android:visibility="gone" />
+
+        
+        <Button
+            android:id="@+id/stop"
+            style="@style/stopbutton"
+            android:text="@string/stop"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

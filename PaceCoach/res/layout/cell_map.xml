@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/cell_map" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        style="@style/map"
+        android:apiKey="@string/apiKey"
+        android:clickable="false" />
+
+    <LinearLayout
+        android:id="@+id/zoomcontainer"
+        style="@style/map_zoomctrls"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/zoomout"
+            style="@style/map_zoomout" />
+
+        <ImageView
+            android:id="@+id/zoomin"
+            style="@style/map_zoomin" />
+    </LinearLayout>
+
+    <ImageView style="@style/map_corner_topleft" />
+
+    <ImageView style="@style/map_corner_topright" />
+
+    <ImageView style="@style/map_corner_bottomleft" />
+
+    <ImageView style="@style/map_corner_bottomright" />
+
+</FrameLayout>

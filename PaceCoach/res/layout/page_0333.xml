@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pagec"
+    style="@style/page"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/row1"
+        style="@style/page_row33"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/cell1"
+            style="@style/l3cells" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/cell2"
+            style="@style/l3cells" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/cell3"
+            style="@style/l3cells" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        style="@style/page_row33"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/cell4"
+            style="@style/l3cells" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/cell5"
+            style="@style/l3cells" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/cell6"
+            style="@style/l3cells" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        style="@style/page_row33"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/cell7"
+            style="@style/l3cells" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/cell8"
+            style="@style/l3cells" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/cell9"
+            style="@style/l3cells" >
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

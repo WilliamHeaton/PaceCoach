@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pagec"
+    style="@style/page"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/col1"
+        style="@style/page_row20r"
+        android:orientation="vertical" >
+
+        <LinearLayout
+        android:id="@+id/row1"
+        style="@style/page_row33"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/time"
+            style="@style/l2cells" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/distance"
+            style="@style/l2cells" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        style="@style/page_row33"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/speed"
+            style="@style/l2cells" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/altitude"
+            style="@style/l2cells" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        style="@style/page_row33"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/splits"
+            style="@style/l2cells" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/graph"
+            style="@style/l2cells" >
+        </FrameLayout>
+        
+        <FrameLayout
+            android:id="@+id/map"
+            style="@style/l2cells" >
+        </FrameLayout>
+    </LinearLayout>
+        
+        
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/big"
+        style="@style/l1cellsr" >
+    </FrameLayout>
+
+</LinearLayout>

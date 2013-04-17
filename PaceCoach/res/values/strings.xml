@@ -1,0 +1,27 @@
+<resources>
+    <string name="apiKey"	>0iUvaYCubQdO5ZN_f2TIcYPbctdqNOvP-clcyAQ</string>
+    <string name="apiKey_test"	>0iUvaYCubQdPea_08xNw_4hDHOT3uCmAGgXmJwQ</string>
+    
+    
+    <string name="app_name">PaceCoach</string>
+    <string name="title_activity_history">PaceCoach</string>
+    <string name="title_activity_running">PaceCoach</string>
+    <string name="title_activity_settings">PaceCoach</string>
+    
+    
+    <string name="logbutton">+</string>
+    <string name="runbutton">Start Workout</string>
+    <string name="searching">Waiting for Location</string>
+    <string name="startwarmup">Begin Warmup</string>
+    <string name="startworkout">Begin Workout</string>
+    <string name="startcooldown">Begin Cooldown</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="split">Split</string>
+
+    <string name="confirmDelete">Are you sure you want to delete this entry?</string>
+    <string name="confirmDeleteButton">Yes</string>
+    <string name="confirmDeleteCancel">No</string>
+
+</resources>

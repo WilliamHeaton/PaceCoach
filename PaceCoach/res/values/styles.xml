@@ -1,0 +1,156 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+        
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+   	</style>
+
+    
+    
+    
+    <style name="container">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/page_background</item>
+	</style>
+
+    
+	
+	
+	<style name="label">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center|top</item>
+        <item name="android:textColor">@color/unit_color</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:singleLine">true</item>
+        
+        
+    </style>
+	<style name="units">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:gravity">center|bottom</item>
+        <item name="android:textColor">@color/unit_color</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+	
+	<style name="dataOuterContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+	
+	<style name="buttoncontainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:padding">@dimen/page_padding</item>
+    </style>
+    <style name="buttoncontainerhistory">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingTop">@dimen/page_padding</item>
+        <item name="android:paddingLeft">@dimen/page_padding</item>
+        <item name="android:paddingRight">@dimen/page_padding</item>
+        
+    </style>
+    
+	
+	<style name="row">
+        <item name="android:paddingLeft">@dimen/page_padding_x2</item>
+        <item name="android:paddingRight">@dimen/page_padding_x2</item>
+        <item name="android:paddingTop">@dimen/page_padding</item>
+        <item name="android:paddingBottom">@dimen/page_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/list_selector</item>
+    </style>
+	
+	<style name="profilerow" parent="row">
+
+    </style>
+	<style name="historyrow" parent="row">
+
+    </style>
+	<style name="historycell">
+        <item name="android:paddingRight">@dimen/page_padding</item>
+        <item name="android:layout_width">70sp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+	<style name="profilecell">
+        <item name="android:paddingRight">@dimen/page_padding</item>
+        <item name="android:layout_width">70sp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+	
+	<style name="settingsFrame" parent="row">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        
+    </style>
+	
+	<style name="settingsSection" parent="row">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        
+    </style>
+	<style name="settingMore">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left|bottom</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+	
+	<style name="tabcontainer">
+        <item name="android:layout_marginTop">@dimen/cell_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/tabs</item>
+        <item name="android:paddingLeft">@dimen/cell_padding</item>
+	</style>
+    
+    <style name="tab">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">@dimen/cell_padding</item>
+        <item name="android:layout_marginLeft">@dimen/cell_padding</item>
+        <item name="android:layout_marginRight">@dimen/cell_padding</item>
+        <item name="android:background">@drawable/tab_off</item>
+        <item name="android:gravity">center|center</item>
+        <item name="android:textColor">@color/unit_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="instructions">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/unit_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">@dimen/page_padding_x2</item>
+        <item name="android:layout_marginRight">@dimen/page_padding_x2</item>
+        <item name="android:gravity">center|center</item>
+    </style>
+    
+    
+    
+    <style name="settings_container">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/settings_background</item>
+	</style>
+    
+    
+   	
+</resources>

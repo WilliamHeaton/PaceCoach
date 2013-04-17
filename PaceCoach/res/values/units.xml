@@ -1,0 +1,17 @@
+<resources>
+    <string name="feet">Feet</string>
+    <string name="yards">Yards</string>
+    <string name="meters">Meters</string>
+    <string name="miles">Miles</string>
+    <string name="kilometers">Kilometers</string>
+    
+    <string name="minMile">min/mile</string>
+    <string name="minKilo">min/km</string>
+    <string name="mph">MPH</string>
+    <string name="knots">Knots</string>
+    <string name="kph">km/h</string>
+    <string name="fps">ft/s</string>
+    <string name="mps">m/s</string>
+    <string name="min">Minutes</string>
+    <string name="noduration">No Duration Set</string>
+</resources>

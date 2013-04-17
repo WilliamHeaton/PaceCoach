@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/cell_normal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label"
+        style="@style/label" />
+
+    <LinearLayout
+        android:id="@+id/dataContainer"
+        style="@style/dataOuterContainer"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/units"
+        style="@style/units" />
+
+</LinearLayout>

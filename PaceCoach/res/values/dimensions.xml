@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cell_radius">10dp</dimen>
+    <dimen name="cell_border">1dp</dimen>
+    <dimen name="cell_padding">3dp</dimen>
+    <dimen name="page_padding">6dp</dimen>
+    <dimen name="page_padding_x2">12dp</dimen>
+    
+    
+    <dimen name="button_radius">10dp</dimen>
+    <dimen name="button_border">1dp</dimen>
+    
+    <dimen name="settings_border">1px</dimen>
+    
+</resources>

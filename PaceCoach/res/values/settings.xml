@@ -1,0 +1,119 @@
+<resources>
+    <item type="id" name="numberofpages" />
+    <item type="id" name="defaultpage" />
+    <item type="id" name="autosplit" />
+    <item type="id" name="manualsplit" />
+    <item type="id" name="lowspeed" />
+    <item type="id" name="highspeed" />
+    <item type="id" name="lowcoolspeed" />
+    <item type="id" name="highcoolspeed" />
+    <item type="id" name="lowwarmspeed" />
+    <item type="id" name="highwarmspeed" />
+    <item type="id" name="workout" />
+    <item type="id" name="cooldown" />
+    <item type="id" name="warmup" />
+    <item type="id" name="workoutend1" />
+    <item type="id" name="workoutend2" />
+    <item type="id" name="cooldownend" />
+    <item type="id" name="warmupend" />
+    <item type="id" name="speedfreq" />
+    
+    <item type="id" name="cooldowninclude" />
+    <item type="id" name="warmupinclude" />
+    
+    <item type="id" name="warmupsplits" />
+    <item type="id" name="cooldownsplits" />
+    
+    <string name="settings">Settings</string>
+    
+    <string name="settings_profile">Profile Name</string>
+    
+    <string name="numPages">Number of Screens</string>
+    <string name="defaultPage">Default Screen</string>
+    <string name="configPagesWhileRunning">Lock Screens</string>
+    <string name="configPagesWhileRunningMore">If unlocked, screens can be configured during workout.</string>
+    
+    
+    <string name="numberPickerSave">Save </string>
+    <string name="numberPickerCancel">Cancel</string>
+    
+    
+    <string name="typedialog">Type of data for this box:</string>
+    <string name="unitdialog">Units:</string>
+    
+    <string name="configurepageinstructions1">Swipe left/right to select template for each Screen.</string>
+    <string name="configurepageinstructions2">Long-Press box to select type of data for each box.</string>
+    
+    <string name="intervals">Intervals</string>
+    <string name="voicealerts">Voice Alerts</string>
+    <string name="va_start">Start</string>
+    <string name="va_pause">Pause</string>
+    <string name="va_stop">Stop</string>
+    <string name="va_resume">Resume</string>
+    <string name="va_split">Split</string>
+    <string name="va_speed_l">Workout Low Speed</string>
+    <string name="va_speed_h">Workout High Speed</string>
+    <string name="va_cooldown_speed_l">Cooldown Low Speed</string>
+    <string name="va_cooldown_speed_h">Cooldown High Speed</string>
+    <string name="va_warmup_speed_l">Warmup Low Speed</string>
+    <string name="va_warmup_speed_h">Warmup High Speed</string>
+    
+    <string name="autosplits">Auto Splits</string>
+    <string name="manualsplits">Manual Splits</string>
+    <string name="tts">Speech Settings</string>
+    
+    <string name="settings_mapMode">Map Mode</string>
+    <string name="settings_mapType">Map Type</string>
+    <string name="mapmodeauto">Auto Zoom</string>
+    <string name="mapmodefixed">Fixed Zoom</string>
+    <string name="mapmodezoom">Show Zoom Controls</string>
+    <string name="maptypenormal">Map</string>
+    <string name="maptypesatalite">Satalite</string>
+    
+    
+    <string name="settings_rotate">Orientation</string>
+    <string name="rotateauto">Auto Rotation</string>
+    <string name="rotateport">Force Portrait</string>
+    <string name="rotateland">Force Landscape</string>
+    
+    <string name="settings_landscape">Landscape Mode</string>
+    <string name="landrotate">Rotate Boxes</string>
+    <string name="landdouble">Show two Screens</string>
+    <string name="landstretch">Stretch Boxes</string>
+    
+    <string name="endkeepgoing">Keep Going</string>
+    <string name="endpause">Pause</string>
+    <string name="endmoveonwork">Begin Workout</string>
+    <string name="endmoveoncool">Begin Cooldown</string>
+    
+    
+		
+    
+    <string name="settings_duration_workout">Workout </string>
+    <string name="settings_duration_warmup">Warmup</string>
+    <string name="settings_duration_cooldown">Cooldown</string>
+    <string name="settings_duration_cooldown_include">Include Cooldown</string>
+    <string name="settings_duration_warmup_include">Include Warmup</string>
+    <string name="settings_duration_cooldown_splits">Splits during Cooldown</string>
+    <string name="settings_duration_warmup_splits">Splits during Warmup</string>
+    <string name="settings_duration_cooldown_include_more">Include Cooldown in time, distance, and average speed statistics</string>
+    <string name="settings_duration_warmup_include_more">Include Warmup in time, distance, and average speed statistics</string>
+    
+    <string name="settings_warmup_end_action">After Warmup</string>
+    <string name="settings_workout_end_action">After Workout</string>
+    <string name="settings_cooldown_end_action">After Cooldown</string>
+    
+    <string name="settings_warmup_end_action_more">Action automatically performed when Warmup Duration reached.</string>
+    <string name="settings_workout_end_action_more">Action automatically performed when Workout Duration reached.</string>
+    <string name="settings_cooldown_end_action_more">Action automatically performed when Cooldown Duration reached.</string>
+    <string name="settings_speed_freq">Speed Alert Max Frequency</string>
+    
+    
+    <string name="settings_plan">Plan Workout</string>
+    <string name="settings_delete_profile">Delete Profile</string>
+    
+    <string name="settings_delete_profile_more">Deleting this profile will also delete all workouts logged under this profile. This can not be undone. Are you sure you want to delete this profile.</string>
+    
+    
+    
+</resources>

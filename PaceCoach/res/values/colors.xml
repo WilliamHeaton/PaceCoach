@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+ <color name="cell_border">#D5D5D5</color>
+ <color name="cell_background">#000000</color>
+ <color name="page_background">#808080</color>
+ <color name="tab_background">#707070</color>
+ <color name="unit_color">#D5D5D5</color>
+ <color name="data_color">#D5D5D5</color>
+ 
+ <color name="button_text">#FFFFFF</color>
+ <color name="button_border">#D5D5D5</color>
+ <color name="button_start" >#008000</color>
+ <color name="button_stop" >#FF0000</color>
+ <color name="button_split" >#33B5E5</color>
+ <color name="button_searching" >#505050</color>
+ 
+ 
+ 
+ <color name="settings_background" >#000000</color>
+ <color name="settings_border" >#777777</color>
+ 
+ 
+ <color name="transparent">#00000000</color>
+ <color name="list_highlight">#33B5E5</color>
+ <color name="tracks">#33B5E5</color>
+ 
+ <color name="splitTimeText">#000000</color>
+ <color name="splitNoText">#FFFFFF</color>
+ <color name="splitBg">#FFFFFF</color>
+ 
+ 
+</resources>

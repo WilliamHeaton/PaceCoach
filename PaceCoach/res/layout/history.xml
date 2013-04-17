@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    style="@style/container"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/buttoncontainerhistory"
+        android:layout_gravity="top"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/logbutton"
+            style="@style/logbutton"
+            android:contentDescription="@string/logbutton"
+            android:src="@drawable/add" />
+
+        <Button
+            android:id="@+id/runbutton"
+            style="@style/runbutton"
+            android:text="@string/runbutton" />
+
+        <ImageButton
+            android:id="@+id/settingsbutton"
+            style="@style/settingsbutton"
+            android:contentDescription="@string/settings"
+            android:src="@drawable/settings" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false" />
+
+</LinearLayout>

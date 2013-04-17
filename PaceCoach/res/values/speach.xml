@@ -1,0 +1,15 @@
+<resources>
+    <string name="beginSpeech">Begin</string>
+    <string name="pauseSpeech">Pause</string>
+    <string name="resumeSpeech">Resume</string>
+    <string name="stopSpeech">Stop</string>
+    <string name="splitSpeech">Split, </string>
+    <string name="hour">Hour</string>
+    <string name="hours">Hours</string>
+    <string name="minute">Minute</string>
+    <string name="minutes">Minutes</string>
+    <string name="second">Second</string>
+    <string name="seconds">Seconds</string>
+    
+    
+</resources>

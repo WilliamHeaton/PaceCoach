@@ -1,0 +1,75 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	
+	<style name="rowA">
+        <item name="android:paddingTop">@dimen/page_padding</item>
+        <item name="android:paddingBottom">@dimen/page_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/list_selector</item>
+    </style>
+    
+	<style name="settingsRow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:paddingLeft">@dimen/page_padding_x2</item>
+        <item name="android:paddingRight">@dimen/page_padding_x2</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+	
+    <style name="settingsRowCont" parent="row">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+    </style>
+	<style name="settingLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/unit_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+	<style name="settings_switch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:visibility">gone</item>
+    </style>
+	<style name="settings_checkbox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:visibility">gone</item>
+    </style>
+	<style name="settingValue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">@dimen/page_padding_x2</item>
+        <item name="android:textColor">@color/unit_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="settings_more">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/settings</item>
+        <item name="android:layout_marginLeft">@dimen/page_padding_x2</item>
+    </style>
+   	<style name="settingDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/unit_color</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+   	<style name="setting_border">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/settings_border</item>
+        <item name="android:background">@color/settings_border</item>
+    </style>
+	
+	
+</resources>

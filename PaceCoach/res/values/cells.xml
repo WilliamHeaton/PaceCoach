@@ -1,0 +1,164 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	
+	
+    <style name="page">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/page_background</item>
+        <item name="android:padding">@dimen/page_padding</item>
+        <item name="android:paddingBottom">0dp</item>
+	</style>
+    <style name="page_row50">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+	</style>
+    <style name="page_row33">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.333</item>
+	</style>
+    <style name="page_row25">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.25</item>
+	</style>
+    <style name="page_row20">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.20</item>
+	</style>
+    <style name="page_row15">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.15</item>
+	</style>
+    <style name="page_row10">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.10</item>
+	</style>
+    <style name="page_row10r">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.10</item>
+	</style>
+	
+    <style name="page_row20r">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.20</item>
+	</style>
+    <style name="page_cell">
+        <item name="android:background">@drawable/data_cell</item>
+        <item name="android:layout_marginLeft">@dimen/cell_padding</item>
+        <item name="android:layout_marginRight">@dimen/cell_padding</item>
+        <item name="android:layout_marginTop">@dimen/cell_padding</item>
+        <item name="android:layout_marginBottom">@dimen/cell_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+	</style>
+	
+	<style name="page_10m" parent="page_cell">
+    </style>
+	<style name="l1cells" parent="page_cell">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+	<style name="l2cells" parent="page_cell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+	<style name="l3cells" parent="page_cell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.333</item>
+    </style>
+	<style name="l1cellsr" parent="page_cell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+	<style name="l3cellsr" parent="page_cell">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.333</item>
+    </style>
+     
+	
+	<style name="data">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/unit_color</item>
+    </style>
+	<style name="cell_normal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+	<style name="cell_map">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+	<style name="map_preview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:src">@drawable/world</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+	<style name="chart_preview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:src">@drawable/chart</item>
+        <item name="android:scaleType">fitEnd</item>
+    </style>
+	
+	<style name="map">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+	<style name="map_corner">
+        <item name="android:layout_width">@dimen/cell_radius</item>
+        <item name="android:layout_height">@dimen/cell_radius</item>
+    </style>
+	<style name="map_corner_topleft" parent="map_corner">
+        <item name="android:layout_gravity">top|left</item>
+        <item name="android:src">@drawable/map_topleft</item>
+    </style>
+	<style name="map_corner_topright" parent="map_corner">
+        <item name="android:layout_gravity">top|right</item>
+        <item name="android:src">@drawable/map_topright</item>
+    </style>
+	<style name="map_corner_bottomleft" parent="map_corner">
+        <item name="android:layout_gravity">bottom|left</item>
+        <item name="android:src">@drawable/map_bottomleft</item>
+    </style>
+	<style name="map_corner_bottomright" parent="map_corner">
+        <item name="android:layout_gravity">bottom|right</item>
+        <item name="android:src">@drawable/map_bottomright</item>
+    </style>
+		
+	
+	<style name="map_zoomctrls">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:visibility">gone</item>
+        
+    </style>
+	<style name="map_zoom">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+	<style name="map_zoomout" parent="map_zoom">
+        <item name="android:src">@drawable/zoom_out</item>
+        <item name="android:background">@drawable/zoom_out_bg</item>
+        
+    </style>
+	<style name="map_zoomin" parent="map_zoom">
+        <item name="android:src">@drawable/zoom_in</item>
+        <item name="android:background">@drawable/zoom_in_bg</item>
+    </style>
+	
+	
+</resources>

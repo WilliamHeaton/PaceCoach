@@ -1,0 +1,35 @@
+<resources>
+    <string name="time">Time</string>
+    <string name="distance">Distance</string>
+    <string name="speedGPS">Speed (GPS)</string>
+    <string name="speedCal">Speed (Calc)</string>
+    <string name="speedAvg">Speed (Avg)</string>
+    <string name="map">Map</string>
+    <string name="location">Location</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="altitude">Altitude</string>
+    <string name="blank">Blank</string>
+    <string name="splits">Splits</string>
+    <string name="splitno">Split Number</string>
+    <string name="splitspeed">Speed (Split)</string>
+    <string name="splitdistance">Distance Since Split</string>
+    <string name="splittime">Time Since Split</string>
+    <string name="splitauto">Auto Split Distance</string>
+    <string name="splitdistleft">Distance Until Auto Split</string>
+    <string name="splittimeleft">Time Until Auto Split</string>
+    
+    <string name="graphdist">Graph - Distance</string>
+    <string name="graphacu">Graph - Accuracy</string>
+    <string name="graphalt">Graph - Altitude</string>
+    <string name="graphspeedgps">Graph - Speed (GPS)</string>
+    <string name="graphspeedavg">Graph - Speed (Avg)</string>
+    <string name="graphspeedcal">Graph - Speed (Cal)</string>
+    
+    <item type="id" name="data" />
+    <item type="id" name="dataView" />
+    <item type="id" name="dataView1" />
+    <item type="id" name="dataView2" />
+    <item type="id" name="frag" />
+    
+    
+</resources>

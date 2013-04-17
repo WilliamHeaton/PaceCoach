@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/settingsRow" >
+
+    <LinearLayout 
+        style="@style/settingsRowCont"
+        android:id="@+id/settingsRow" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/label"
+                style="@style/settingLabel"
+                android:text="Label" />
+
+            <Switch
+                android:id="@+id/switch1"
+                style="@style/settings_switch" />
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                style="@style/settings_checkbox" />
+
+            <TextView
+                android:id="@+id/value"
+                style="@style/settingValue" />
+
+            <ImageButton
+                android:id="@+id/button"
+                style="@style/settings_more"
+                android:contentDescription="@string/settings"
+                android:src="@drawable/settings" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/settingDescription"
+            android:text="Long Description goes here" />
+    </LinearLayout>
+
+    <View style="@style/setting_border" />
+
+</LinearLayout>
