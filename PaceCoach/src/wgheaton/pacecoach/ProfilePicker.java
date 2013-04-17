@@ -1,4 +1,4 @@
-package com.cypho.pacecoach;
+package wgheaton.pacecoach;
 
 import android.app.Activity;
 import android.app.AlertDialog;

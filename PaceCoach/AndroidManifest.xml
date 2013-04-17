@@ -17,11 +17,11 @@
         <uses-library android:name="com.google.android.maps" />
 
         <service
-            android:name="com.cypho.pacecoach.PositionLogger"
+            android:name="wgheaton.pacecoach.PositionLogger"
             android:process=":logger_process" />
 
         <activity
-            android:name="com.cypho.pacecoach.History"
+            android:name="wgheaton.pacecoach.History"
             android:label="@string/title_activity_history" 
         	android:theme="@android:style/Theme.Holo.NoActionBar">
             <intent-filter>
@@ -33,35 +33,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.cypho.pacecoach.Running"
+            android:name="wgheaton.pacecoach.Running"
             android:label="@string/title_activity_running"
             android:launchMode="singleTask"
        		android:theme="@android:style/Theme.Holo.NoActionBar" >
             
         </activity>
         <activity
-            android:name="com.cypho.pacecoach.Settings"
+            android:name="wgheaton.pacecoach.Settings"
             android:label="@string/title_activity_settings"
             android:noHistory="true"
        		android:theme="@android:style/Theme.Holo.NoActionBar" >
             
         </activity>
         <activity
-            android:name="com.cypho.pacecoach.SettingsVoiceAlerts"
+            android:name="wgheaton.pacecoach.SettingsVoiceAlerts"
             android:label="@string/title_activity_settings"
             android:noHistory="true"
        		android:theme="@android:style/Theme.Holo.NoActionBar" >
             
         </activity>
         <activity
-            android:name="com.cypho.pacecoach.SettingsPlan"
+            android:name="wgheaton.pacecoach.SettingsPlan"
             android:label="@string/title_activity_settings"
             android:noHistory="true"
        		android:theme="@android:style/Theme.Holo.NoActionBar" >
             
         </activity>
         <activity
-            android:name="com.cypho.pacecoach.SettingsConfigPages"
+            android:name="wgheaton.pacecoach.SettingsConfigPages"
             android:label="@string/title_activity_settings"
             android:screenOrientation="portrait"
             android:noHistory="true"
@@ -69,7 +69,7 @@
             
         </activity>
         <activity
-            android:name="com.cypho.pacecoach.ReviewRun"
+            android:name="wgheaton.pacecoach.ReviewRun"
             android:label="@string/title_activity_history" 
             android:noHistory="true"
        		android:theme="@android:style/Theme.Holo.NoActionBar" >

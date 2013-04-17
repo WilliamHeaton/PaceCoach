@@ -1,4 +1,4 @@
-package com.cypho.pacecoach;
+package wgheaton.pacecoach;
 
 import java.util.TimeZone;
 import wgheaton.pacecoach.R;
@@ -22,7 +22,7 @@ import android.os.Messenger;
 import android.os.SystemClock;
 
 public class PositionLogger extends Service implements OnInitListener {
-	  public static final String EXTRA_MESSENGER="com.cypho.pacecoach.EXTRA_MESSENGER";
+	  public static final String EXTRA_MESSENGER="wgheaton.pacecoach.EXTRA_MESSENGER";
 
 	private LocationListener myLocationListener;
 	private LocationManager myLocationManager;

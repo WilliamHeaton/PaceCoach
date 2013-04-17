@@ -1,4 +1,4 @@
-package com.cypho.pacecoach;
+package wgheaton.pacecoach;
 
 import android.content.ContentValues;
 import android.content.Context;

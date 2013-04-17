@@ -1,4 +1,4 @@
-package com.cypho.pacecoach;
+package wgheaton.pacecoach;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.cypho.pacecoach;
+package wgheaton.pacecoach;
 
 import java.util.List;
 import wgheaton.pacecoach.R;
@@ -25,10 +25,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.LinearLayout.LayoutParams;
 
-import com.cypho.pacecoach.PC.Graph;
-import com.cypho.pacecoach.PC.MyOverlay;
-import com.cypho.pacecoach.PC.DataView;
-import com.cypho.pacecoach.PC.TimeView;
+import wgheaton.pacecoach.PC.Graph;
+import wgheaton.pacecoach.PC.MyOverlay;
+import wgheaton.pacecoach.PC.DataView;
+import wgheaton.pacecoach.PC.TimeView;
 import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapController;
 import com.google.android.maps.MapView;
